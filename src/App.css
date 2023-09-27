@@ -1,0 +1,41 @@
+.hero-container {
+    position: relative;
+    z-index: 100;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 200;
+}
+
+.hero-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.4;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.link-decoration {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 1);
+}
+
+.link-decoration:hover {
+    color: rgba(11, 78, 245, 1)
+}   
